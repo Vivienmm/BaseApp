@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/list_pic_img"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/list_pic_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_pic_img"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="14dp"
+        android:textColor="#ff333333"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/list_pic_location_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_pic_title_tv"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="14dp"
+        android:text="美国 阿拉斯加"
+        android:textColor="#ff616161"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/list_pic_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_pic_title_tv"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="14dp"
+        android:text="2018-07-03"
+        android:textColor="#ffb4b4b4"
+        android:textSize="12sp"
+        android:layout_marginBottom="20dp" />
+</RelativeLayout>
