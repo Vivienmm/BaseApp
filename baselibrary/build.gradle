@@ -39,7 +39,8 @@ dependencies {
     api "com.android.support:cardview-v7:${versions.supportLibrary}"
     api "com.scwang.smartrefresh:SmartRefreshLayout:${versions.smartrefresh}"
     api"com.scwang.smartrefresh:SmartRefreshHeader:${versions.smartrefresh}"
-    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46'
+
+    api "com.github.CymChad:BaseRecyclerViewAdapterHelper:${versions.BRVAH}"
 
     //常用工具
     implementation "com.jakewharton:butterknife:${versions.butterknife}"

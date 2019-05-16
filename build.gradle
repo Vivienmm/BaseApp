@@ -17,6 +17,8 @@ buildscript {
             'leakVersion'     : '1.5',
             'glide'           : '4.4.0',
 
+            'BRVAN'           : '2.9.46',
+
     ]
 
 
