@@ -45,7 +45,8 @@ dependencies {
     //常用工具
     implementation "com.jakewharton:butterknife:${versions.butterknife}"
     annotationProcessor  "com.jakewharton:butterknife-compiler:${versions.butterknife}"
-
+    //导航栏
+    api 'com.github.hackware1993:MagicIndicator:1.4.0'
 
     api "org.greenrobot:eventbus:${versions.eventbus}"
 
